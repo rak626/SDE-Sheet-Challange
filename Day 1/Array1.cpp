@@ -1,4 +1,7 @@
-//Set Matrix Zeros
+/*===================================
+Set Matrix Zeros
+===================================*/
+
 #include <bits/stdc++.h>
 void setZeros(vector<vector<int>> &matrix)
 {
@@ -34,8 +37,9 @@ void setZeros(vector<vector<int>> &matrix)
 		}
 	}
 }
-
-// Pascal's Triangle
+/*===================================
+Pascal's Triangle
+===================================*/
 
 #include <bits/stdc++.h>
 vector<vector<long long int>> printPascal(int n) {
@@ -50,8 +54,9 @@ vector<vector<long long int>> printPascal(int n) {
 	return ans;
 
 }
-
-// next permutation
+/*===================================
+next permutation
+===================================*/
 
 #include <bits/stdc++.h>
 vector<int> nextPermutation(vector<int> &permutation, int n)
@@ -76,8 +81,9 @@ vector<int> nextPermutation(vector<int> &permutation, int n)
 	}
 	return permutation;
 }
-
-//Kadane’s Algorithm / Maximum subarray sum
+/*============================================
+Kadane’s Algorithm / Maximum subarray sum
+============================================*/
 
 #include <bits/stdc++.h>
 long long maxSubarraySum(int arr[], int n)
@@ -91,8 +97,9 @@ long long maxSubarraySum(int arr[], int n)
 	return best;
 }
 
-// Sort an array of 0s, 1s and 2s
-
+/*===================================
+Sort an array of 0s, 1s and 2s
+===================================*/
 // Dutch national flag algorithm
 
 #include <bits/stdc++.h>
@@ -111,8 +118,9 @@ void sort012(int *arr, int n)
 	}
 }
 
-
-// Stock buy and Sell
+/*===================================
+Stock buy and Sell
+===================================*/
 
 #include <bits/stdc++.h>
 int maximumProfit(vector<int> &prices) {
